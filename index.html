@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicare Part B Penalty Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="explanation">
+                <h1 class="title-h1">Part B Late Enrollment Penalty Explained</h1>
+                <p class="main-p">
+                    The Medicare Part B late enrollment penalty is tied to the monthly premium. If you delay signing up for Part B, you will be charged an additional 10% for each 12-month period you went without coverage once you became eligible. This penalty will be added to your standard monthly premium and will last for as long as you have Part B.
+                </p>
+            </div>
+            <div class="calculator">
+                <h1>Part B Late Enrollment Penalty Calculator</h1>
+                <div class="part">
+                    <label class="months" for="partB-months">Months Without Coverage:</label>
+                    <input class="number" type="number" id="partB-months" placeholder="Enter months">
+
+                    <div class="button-group">
+                        <button class="calculate" onclick="calculatePartB()">Calculate</button>
+                        <button class="clear" onclick="clearPartB()">Clear</button>
+                    </div>
+                    <p>Total Penalty Amount (Estimate):</p>
+                    <p id="partB-result"></p>
+                </div>
+            </div>
+        </div>
+        <p>*Please note that these numbers are for the current year</p>
+    </div>
+    <script src="part-b.js"></script>
+</body>
+</html>
