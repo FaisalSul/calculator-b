@@ -54,13 +54,7 @@ h1 {
     color: #3c5f97; /* DARK SLATE BLUE */
     text-align: center;
     margin: 0;
-    margin-bottom: 40px;
-}
-.title-h1{
-    font-family: 'Montserrat', serif;
-    color: #3c5f97; /* DARK SLATE BLUE */
-    text-align: center;
-    margin: 0;
+    margin-bottom: 15px;
 }
 
 .part {
